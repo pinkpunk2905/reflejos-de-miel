@@ -60,7 +60,7 @@ export default function Footer() {
   alt="Decoración ondulada"
   style={{
     width: '100%',
-    height: '120px',
+    height: '200px',
     display: 'block',
     marginTop: '0',
     objectFit: 'cover'
