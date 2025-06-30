@@ -10,7 +10,7 @@ export default function Hero({ title, subtitle, ctaText, onCtaClick }) {
         <p className="lead mb-4">{subtitle}</p>
         <Button
           onClick={onCtaClick}
-          className="hero-cta"
+          className="hero-cta border-0"
         >
           {ctaText}
         </Button>

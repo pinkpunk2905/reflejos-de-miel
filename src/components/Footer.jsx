@@ -1,11 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import waveSvg from '../assets/wave-2.svg';
 
 export default function Footer() {
   const footerStyle = {
     backgroundColor: 'var(--wattpad-white)',
     color: 'var(--color-purple)',
-    padding: '3rem 1rem 18rem 1rem'
+    padding: '3rem 1rem 0rem',
+    overflow: 'hidden',
+    position: 'relative',
   };
 
   const headingStyle = {
@@ -52,6 +55,17 @@ export default function Footer() {
           </Col>
         </Row>
       </Container>
+      <img
+  src={waveSvg}
+  alt="Decoración ondulada"
+  style={{
+    width: '100%',
+    height: '120px',
+    display: 'block',
+    marginTop: '0',
+    objectFit: 'cover'
+  }}
+/>
     </footer>
   );
 }

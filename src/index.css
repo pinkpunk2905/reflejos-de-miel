@@ -243,7 +243,7 @@ button:focus-visible {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: #3d005c;
+  background-color: var(--color-magenta);
   opacity: 0.8;
 }
 
@@ -280,4 +280,7 @@ button:focus-visible {
   background-color: #d1a132;
   color: #242424;
   box-shadow: 0 0 0 0.2rem rgba(227, 178, 60, 0.4);
+}
+.text-purple {
+  color: var(--color-purple);
 }

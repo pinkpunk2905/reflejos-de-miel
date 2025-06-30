@@ -2,7 +2,7 @@
 import React from 'react';
 import { Navbar, Container, Nav, Form, FormControl, Button } from 'react-bootstrap';
 // 1️⃣ Importa el SVG correctamente desde src/assets:
-import logo from '../assets/bee-svgrepo-com.SVG';
+import logo from '../assets/bee-svgrepo-com.svg';
 
 export default function AppNavbar() {
   return (
@@ -26,10 +26,10 @@ export default function AppNavbar() {
           </Form>
 
           <Nav className="align-items-center">
-            <Nav.Link href="/login" className="nav-login">
+            <Nav.Link href="/login" className="nav-login pe-3">
               Iniciar sesión
             </Nav.Link>
-            <Button href="/signup" className="nav-signup">
+            <Button href="/signup" className="nav-signup bg-white text-purple border-0">
               Registrarse
             </Button>
           </Nav>
