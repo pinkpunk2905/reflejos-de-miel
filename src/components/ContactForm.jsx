@@ -24,7 +24,7 @@ export default function ContactForm() {
     <section className="contact-form py-5">
       <div className="row justify-content-center w-100">
         <h2 className="text-center mb-4 col-12">Contáctanos</h2>
-        <form onSubmit={handleSubmit} noValidate className="col-5">
+        <form onSubmit={handleSubmit} noValidate className="col-10 col-md-5">
           <div className="mb-3">
             <label htmlFor="name" className="form-label">Nombre</label>
             <input
